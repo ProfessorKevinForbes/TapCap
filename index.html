@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+	<title>Tap Cap</title>
+	<link href="FrankenyProject4.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script type="text/javascript" src="FrankenyProject4.js"></script>
+	
+
+</head>
+
+<body>
+<div id="menuScreen">
+	<h1>Tap Cap</h1>
+	<button type="button" id="btnStartGame">Start Game</button>
+	<button type="button" id="btnInstructions">Instructions</button>
+</div>
+<div id="instructionsScreen">
+	<button type="button" id="btnBack">Back</button>
+	<h1>Instructions</h1>
+	<p>Squares will periodically appear on the screen and then slowly fade away. Tap the squares before they fade to stay alive! The squares will appear faster and fade more quickly as time goes on. See what your Tap Cap™ is!</p>
+	<a href="https://build.phonegap.com/apps/1162983/builds">PhoneGap Build Link</a>
+	<a href="https://github.com/Glipocalypse/Project-4">GitHub Repository Link</a>
+</div>
+<div id="gameScreen">
+<h1 id="squareCount">Squares Tapped: 0<br/> Taps per Second: 0</h2>
+<table border="1" style="width:100%">
+  <tr>
+    <td><div class="gameSquare isAvailable isTapped" id="SquareOne"></div></td>
+    <td><div class="gameSquare isAvailable isTapped" id="SquareTwo"></div></td> 
+    <td><div class="gameSquare isAvailable isTapped" id="SquareThree"></div></td>
+  </tr>
+  <tr>
+    <td><div class="gameSquare isAvailable isTapped" id="SquareFour"></div></td>
+    <td><div class="gameSquare isAvailable isTapped" id="SquareFive"></div></td> 
+    <td><div class="gameSquare isAvailable isTapped" id="SquareSix"></div></td>
+  </tr>
+  <tr>
+    <td><div class="gameSquare isAvailable isTapped" id="SquareSeven"></div></td>
+    <td><div class="gameSquare isAvailable isTapped" id="SquareEight"></div></td> 
+    <td><div class="gameSquare isAvailable isTapped" id="SquareNine"></div></td>
+  </tr>
+</table>
+<button type="button" id="btnTryAgain">Try Again?</button>
+</div>
+	
+</body>
+
+</html>

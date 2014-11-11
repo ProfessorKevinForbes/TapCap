@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "edu.iupui.stp.TapCap"
+        version     = "1.0.0" >
+
+    <name>Tap Cap</name>
+
+    <description>
+        A simple description for the Tap Cap app.
+    </description>
+
+	<gap:platform name="ios"/>
+	<preference name="DisallowOverscroll" value="true"/>
+	<preference name="Orientation" value="portrait"/>
+</widget>
